@@ -1,0 +1,21 @@
+/*ニュース1行の周りの余白*/
+.slider a {
+  letter-spacing: 2px;
+  background: rgba(red, green, blue, 0.1);
+  display: block;
+  padding: 25px 20px;
+}
+
+/*日付*/
+.slider span {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-right: 80px;
+  color: rgb(0, 0, 0);
+}
+
+.news-inner {
+  width: 1000px;
+  font-size: 20px;
+  height: 81px;
+}

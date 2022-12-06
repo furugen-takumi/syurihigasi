@@ -1,0 +1,62 @@
+/*リンクを右下に固定*/
+#page-top {
+    position: fixed;
+    right: 20px;
+    bottom: 3px;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+/*　上に上がる動き　*/
+#page-top.UpMove {
+    animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*　下に下がる動き　*/
+#page-top.DownMove {
+    animation: DownAnime 0.5s forwards;
+}
+
+@keyframes DownAnime {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(150px);
+    }
+}
+
+/*画像の切り替えと動き*/
+#page-top a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url(../images/8-1-8\ keyframes.svg) no-repeat center;
+}
+
+#page-top.floatAnime a {
+    transform-origin: center;
+    transform: rotate(360deg);
+    transition: 2s;
+    width: 150px;
+    height: 150px;
+    background: url(../images/8-1-8\ keyframes\ 2.svg) no-repeat center;
+    background-size: contain;
+
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4a2a2;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #e1967b;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="長方形_17" data-name="長方形 17" class="cls-1" width="30" height="30" transform="translate(100 204)"/>
+    </clipPath>
+  </defs>
+  <g id="home-bto" class="cls-2" transform="translate(-100 -204)">
+    <g id="ホームのフリーアイコン素材" transform="translate(100 204)">
+      <path id="パス_60" data-name="パス 60" class="cls-3" d="M25.439,17.19V28.937H18.066V21.6H11.934v7.341H4.561V17.19L15,9.015Z"/>
+      <path id="パス_61" data-name="パス 61" class="cls-3" d="M0,14.22,15,2.281,30,14.22l-1.746,2.524L15,6.195,1.746,16.744Z"/>
+      <path id="パス_62" data-name="パス 62" class="cls-3" d="M25.773,1.063V8.7L22.065,5.75V1.063Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+$('.main-conteiner').parallax({ imageSrc: 'images/キャリア教育.jpeg' });
